@@ -1,0 +1,39 @@
+#include<stdio.h>
+int binarysearch(int *A,int m,int n,int key)
+{
+  if(m>n)
+  {return -1;}
+  int mid=m+2/2;
+  if(A[mid]==key)
+  {
+    return mid;
+  }
+  if(A[mid]>key)
+  {
+    return binarysearch(A,m,mid-1,key);
+  }
+  if(A[mid]<key)
+  {
+    return binarysearch(A,mid+1,n,key);
+  }
+  
+}
+
+int main()
+{
+  int n,i,key,y;
+  printf("enter n:");
+  scanf("%d",&n);
+  int A[n];
+  printf("enter elements of the array:");
+  for(i=0;i<n;i++)
+  {
+    scanf("%d",&A[i]);
+  }
+ 
+  printf("enter key");
+  scanf("%d",&key);
+  y=binarysearch(A,0,n-1,key);
+  printf("%d",y);
+  return 0;
+}
