@@ -10,6 +10,6 @@ Help us make a deposit of algorithms.
 
 
 
-If you need the PR for HacktoberFest 2021, plaese comment it and let us know.
+If you need the PR for HacktoberFest 2021, please comment it and let us know.
 
 Happy coding.
