@@ -3,7 +3,7 @@ Help us make a deposit of algorithms.
 
 #Rules to Contribute-
 
--Check the issues section for new issues.
+-Check the issues section for new issues.<br>
 -Add alogorithms under Algorithm Name/Algorithm File.<br>
 -You can contribute in any language.<br>
 -You can also raise issues to verify with us.<br>
